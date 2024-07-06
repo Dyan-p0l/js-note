@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(72, 4, 181);
+}
+
+h1 {
+    font-family: 'Lexend Deca';
+    font-weight: 700;
+    margin: 30px 20px;
+    font-size: 1.4em;
+    color: rgb(15, 1, 93);
+}
+
+.container {
+    background-color: #ffffff;
+    width: 500px;
+    height: 420px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-cont{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+#input-add{
+    width: 380px;
+    height: 45px;
+    background-color: rgb(232, 232, 232);
+    outline: none;
+    border: none;
+    border-radius: 25px 4px 4px 25px;
+    padding-left: 23px;
+}
+
+#input-add::placeholder{
+    margin-left: 30px;
+}
+
+#add-button{
+    width: 80px;
+    border-radius: 4px 12px 12px 4px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+
+#notes {
+    display: flex;
+    flex-direction: column;
+}
+
+#notes div{
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    height: 50px;
+    align-items: center;
+    position: relative;
+}
+
+#notes div p{
+    font-family: "Lexend Deca";
+    font-weight: 700;
+    margin-left: 10px;
+    color: rgb(15, 1, 93);
+}
+
+#notes div input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+#notes div input[type="checkbox"]:checked{
+    
+}
+
+.button-del{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 15px;
+    background-color: rgb(255, 30, 5);
+    color: #ffffff;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
